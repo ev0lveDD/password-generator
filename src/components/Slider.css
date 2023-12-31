@@ -27,10 +27,12 @@
   }
     
   .slider::-moz-range-thumb {
-    background: #a4ffaf;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #e6e5e9;
     cursor: pointer;
-    box-shadow: -200px 0 0 190px #a4ffaf;
-    box-sizing: border-box;
   }
 
   .slider::-webkit-slider-thumb {
